@@ -3,36 +3,36 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Дмитрий Соколов",
+    role: "Покупатель, 47 заказов",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Пополнил Steam на 3000 рублей — деньги пришли за минуту. Курс реально выгоднее, чем в других местах. Уже не первый раз беру здесь.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Алина Веретенникова",
+    role: "Покупатель, 12 заказов",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Купила ключ на новинку в день релиза, вышло дешевле официального магазина. Пришёл сразу на почту, активировался без проблем.",
+  },
+  {
+    name: "Игорь Мельник",
+    role: "Покупатель, 89 заказов",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Беру подписки Game Pass и PS Plus только тут. Поддержка в Telegram отвечает моментально, однажды даже помогли с активацией ночью.",
   },
 ]
 
 export function TestimonialsSection() {
   return (
-    <section className="py-24 px-6 bg-card">
+    <section id="reviews" className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Отзывы покупателей</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Тысячи геймеров уже совершают покупки у нас каждый день
           </p>
         </div>
 

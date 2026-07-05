@@ -3,40 +3,40 @@ import { Badge } from "@/components/ui/badge"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
-    icon: "brain",
-    badge: "ИИ",
-  },
-  {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
-    icon: "lock",
-    badge: "Сертификат",
-  },
-  {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
-    icon: "globe",
-    badge: "Точность",
-  },
-  {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
+    title: "Моментальная доставка",
+    description: "Код или пополнение приходят на почту сразу после оплаты — в среднем за 30 секунд, без ожидания.",
     icon: "zap",
-    badge: "Умный",
+    badge: "Мгновенно",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
-    icon: "link",
-    badge: "Связь",
+    title: "Безопасная оплата",
+    description: "Все платежи проходят через защищённый шлюз с шифрованием. Ваши данные под надёжной защитой.",
+    icon: "lock",
+    badge: "Защита",
   },
   {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
+    title: "Пополнение Steam",
+    description: "Пополняем баланс Steam в рублях по выгодному курсу. Работаем с любыми регионами аккаунтов.",
+    icon: "globe",
+    badge: "Steam",
+  },
+  {
+    title: "Игры и ключи",
+    description: "Огромный каталог лицензионных ключей и аккаунтов для Steam, Epic, PlayStation и Xbox.",
     icon: "target",
-    badge: "XR Ready",
+    badge: "Каталог",
+  },
+  {
+    title: "Подписки и сервисы",
+    description: "Xbox Game Pass, PS Plus, Discord Nitro, Spotify и другие подписки по низким ценам.",
+    icon: "link",
+    badge: "Подписки",
+  },
+  {
+    title: "Поддержка 24/7",
+    description: "Живая поддержка в чате и Telegram в любое время суток. Поможем с заказом и вернём деньги при проблеме.",
+    icon: "brain",
+    badge: "24/7",
   },
 ]
 
@@ -45,9 +45,9 @@ export function FeaturesSection() {
     <section className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Почему выбирают нас</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            Всё для геймеров — быстро, безопасно и по выгодным ценам
           </p>
         </div>
 
